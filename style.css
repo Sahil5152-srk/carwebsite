@@ -1,0 +1,423 @@
+@font-face {
+    font-family:Samsung;
+    src: url('fonts/SamsungSans-Bold.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: burlywood; */
+    overflow-x: hidden;
+    /* display: grid;
+    place-items: center; */
+    
+}
+nav{
+    background-color: #598cbb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: aliceblue;
+
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav button{
+    background-color: #fefefe;
+    border: none;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-size: 1rem;
+
+}
+.page1{
+    background-color: #000;
+    height : 100%;
+    width: 100%;
+    padding: 3vw 20vw;
+    font-family: "Poppins", serif;
+    color: #fff;
+}
+.Srk{
+    width: 100%;
+    height: 75%;
+    /* background-color: bisque; */
+    border-radius: 1rem;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+.Srk img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+.page2{
+    background-color: #444;
+    height : 100vh;
+    width: 100vw;
+    /* padding: 3vw 20vw; */
+    /* font-family: "Poppins", serif; */
+    /* color: #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: #598cbb;
+    /* display: inline-block; */
+}
+#box:nth-child(2){
+    background-color: brown;
+}
+.page3{
+    /* background-color: #000; */
+    height: 100%;
+    width: 100%;
+    /* padding: 2vw 10vw; */
+    
+}
+.page3 .title{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 15vw;
+    font-family: Samsung;
+    height: 10%;
+}
+.car-section{
+    height: 90%;
+    width: 100%;
+    /* background-color: #b91515; */
+    padding: 0 15vw;
+}
+.multiple-cars{
+    height: 30%;
+    width: 100%;
+    /* background-color: #5f3a3a; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.multiple-cars .box{
+    height: 80%;
+    width: 24%;
+    /* background-color: #598cbb; */
+}
+.multiple-cars .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.main-car{
+    height: 70%;
+    width: 100%;
+    /* background-color: #558324; */
+
+}
+.main-car  img{
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.page4{
+    /* background-color: #000; */
+    height: 100%;
+    width: 100%;
+    /* padding: 2vw 10vw; */
+    
+}
+.page4 .title{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 15vw;
+    font-family: "Poppins", serif;
+    height: 10%;
+}
+.car-section{
+    height: 90%;
+    width: 100%;
+    /* background-color: #b91515; */
+    padding: 0 15vw;
+}
+.multiple-cars{
+    height: 30%;
+    width: 100%;
+    /* background-color: #5f3a3a; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.multiple-cars .box{
+    height: 80%;
+    width: 24%;
+    /* background-color: #598cbb; */
+}
+.multiple-cars .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.main-car{
+    height: 70%;
+    width: 100%;
+    /* background-color: #558324; */
+
+}
+.main-car  img{
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.page5{
+    background-color: #d69e1c;
+    height: 100%;
+    width: 100%;
+    /* padding: 0 10vw; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+.page5 .section{
+    height: 90%;
+    width: 80%;
+    background-color: #b91515;
+    display: flex;
+
+}
+.page5 .section .list{
+    height: 100%;
+    width: 50%;
+    background-color: #fefefe;
+    display: flex;
+    /* align-items: center; */
+    padding: 0 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.page5 .section .list ul{
+    /* background-color: #598cbb; */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+
+}
+.page5 .section .list ul li{
+    list-style: none;
+    font-family: Samsung;
+    
+}
+.page5 .section .list ul li:nth-child(1){
+    font-size: 1rem;
+}
+.page5 .section .list ul li:nth-child(2){
+    font-family: Poppins;
+    font-size: 0.8rem;
+}
+.page5 .section .Details{
+    height: 100%;
+    width: 50%;
+    background-color: #87c677;
+}
+.page6{
+    background-color: #a31cb3;
+    height: 100%;
+    width: 100%;
+    /* padding: 0 10vw; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+.page6 .section{
+    height: 50%;
+    width: 60%;
+    background-color: #b52a2a;
+    display: flex;
+
+}
+.page6 .section .list{
+    height: 100%;
+    width: 50%;
+    background-color: #838abb;
+    /* display: flex; */
+
+}
+.page6 .section .list .design{
+    height: 60% ;
+    width: 100%;
+    background-color: #b072b6;
+    padding: 0 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Samsung;
+
+}
+.page6 .design p{
+    margin-bottom: 0.5rem;
+}
+.page6 .design h1{
+    margin-bottom: 1rem;
+}
+.page6 .section .list .links{
+    width: 100%;
+    /* background-color: #b79035; */
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.page6 .links a{
+    text-decoration: none;
+    background-color: #000;
+    width: 50%;
+    text-align: center;
+    padding: 0.7rem 0;
+    color: #fff;
+    
+}
+.page6 .model{
+    height: 40%;
+    width: 100%;
+    background-color: #598cbb;
+    padding: 1vh 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.page6 .model ul{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem;
+    
+}
+.page6 .model ul li{
+    list-style: none;
+}
+
+.page6 .section .Details{
+    height: 100%;
+    width: 50%;
+    background-color: #fefefe;
+    display: flex;
+    /* align-items: center; */
+    padding: 0 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.page6 .section .Details ul{
+    /* background-color: #598cbb; */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-top: #000 1px solid; */
+    border-bottom: #000 1px solid;
+}
+.page6 .section .Details ul:nth-child(1){
+    border-top: #000 1px solid;
+}
+.page6 .section .Details ul li{
+    list-style: none;
+    font-family: Samsung;
+    
+}
+.page6 .section .Details ul li:nth-child(1){
+    font-size: 1rem;
+}
+.page6 .section .Details ul li:nth-child(2){
+    font-family: Poppins;
+    font-size: 0.8rem;
+}
+nav1{
+    /* background-color: #598cbb; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(80, 148, 207);
+
+}
+nav1 ul{
+    display: flex;
+    gap: 5rem;
+}
+nav1 ul li{
+    list-style: none;
+}
+nav1 ul li a{
+    text-decoration: none;
+    color: #100e0e;
+}
+nav1 .button{
+    /* background-color: #fefefe; */
+    border: none;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-size: 1rem;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.page7 .border{
+    /* background-color: #87c677; */
+    height: 50%;
+    width: 70%;
+    padding: 2rem;
+    /* border-radius: 0.5rem; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+ .page7 .border .card{
+    background-color: #3353bf;
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 30%;
+}
+
+
+
+
